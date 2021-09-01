@@ -22,6 +22,9 @@ CREATE DATABASE test;
 -- 切换数据库
 use test;
 
+--关闭数据库
+close test;
+
 -- 显示数据库中的所有表
 show tables;
 
